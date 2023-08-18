@@ -10,7 +10,7 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class=" bg-deepBlue">
+    <nav class=" relative bg-deepBlue">
         <div class=" relative w-[1080px] mx-auto flex items-center justify-between">
 
             <!-- Logo -->
@@ -90,27 +90,91 @@
 
     <!-- Hero section -->
     <section
-    class=" relative bg-deepBlue">
+    class="  bg-deepBlue overflow-hidden">
 
-    <div class=" w-10/12 flex flex-row justify-between items-center mx-auto ">
+    <div class=" w-10/12 max-w-[1080] flex flex-row justify-between items-center mx-auto ">
 
         <!-- left -->
-        <div>
-            <h1>Power your finance, grow your business</h1>
+        <div class=" flex flex-col gap-4 ">
+            <h1 class=" font-mullish font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
             <div class=" w-6 h-1 bg-greenLight"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, aliquid.</p>
-            <button>Sign Up Now</button>
+            <p class=" font-mullish text-[18px] leading-7 text-white opacity-70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, aliquid.</p>
+            <button class=" bg-lightBlue text-white rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200 py-[18px] px-[5px] ">Sign Up Now</button>
         </div>
 
         <!-- right -->
-        <img src="./images/hero-illustration.jpg" alt="">
+        <img src="./images/hero-illustration.jpg" alt="" 
+        class=" w-full max-w-[680px]">
 
     </div>
 
     <!-- shape -->
-    <div>
-        <img src="./images/hero-shape.svg" alt="">
+    <div class=" absolute left-0 right-0 w-[103%] ">
+        <img src="./images/hero-shape.svg" alt=""
+        class=" w-full object-fill">
     </div>
+
+    </section>
+
+    <!-- Feature section -->
+    <section>
+
+        <img src="/images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167">
+        <img src="/images/feature-section1-dottedrows.png" alt="" loading="lazy" width="233" height="167">
+
+        <div>
+            <!-- Heading -->
+            <h2>Accept Payments with Razoepay Payment Suite</h2>
+            <div></div>
+
+            <!-- content box -->
+            <div>
+                <!-- left section -->
+                <div>
+                    <h3>
+                        Supercharger your business with the all poweful 
+                        <span class=" text-lightBlue">Payment Gateway</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <span>100+ Payment Methods</span>
+                        </li>
+                        <li>
+                            <span>Industry Leading Sucess Rate</span>
+                        </li>
+                        <li>
+                            <span>Superior Checkout Experience</span> 
+                        </li>
+                        <li>
+                            <span>Easy to Integrate</span>
+                        </li>
+                        <li>
+                            <span>Instant Settlements from day 1</span>
+                        </li>
+                        <li>
+                            <span>In-depth Reporting and Insights</span>
+                        </li>
+                    </ul>
+
+                    <!-- For button and hyperlink -->
+                    <div>
+                        <button>Sign Up Now</button>
+                        <!-- Hyperlink -->
+                        <div>
+                            <a href="">Know More</a>
+                            <i></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <img src="/images/payment-suite.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
 
     </section>
 
